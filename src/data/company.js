@@ -1,4 +1,4 @@
 export const companyData = {
-    companyId: 20146,
+    companyId:20101,
   };
   

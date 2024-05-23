@@ -32,7 +32,7 @@ const AboutComponent = () => {
             </p>
             <br/>
             <p className="text-lg xl:text-xl text-gray-700 mt-8 ml-0 xl:ml-1 md:text-center xl:text-left">
-              CRL Propiedades
+              Carolina Ruiz Lobos.
             </p>
             <p className="text-lg xl:text-xl text-gray-700 ml-0 xl:ml-1 md:text-center xl:text-left">
               Director/as de CRL Propiedades.
