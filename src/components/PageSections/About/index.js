@@ -19,24 +19,51 @@ const AboutComponent = () => {
             <img
               src={aboutMeImg}
               alt="about-img"
-              className="object-cover object-center rounded-full shadow-lg h-[280px] w-[280px] mt-10 mx-5 md:mx-28 md:w-[300px] md:h-[300px] xl:w-[350px] xl:h-[350px] xl:my-10 xl:mx-20 hover:scale-110 duration-300"
+              className="object-cover object-center rounded-full shadow-lg h-[280px] w-[280px] mt-10 mx-5 md:mx-2 md:w-[300px] md:h-[300px] xl:w-[410px] xl:h-[410px] 2xl:my-10 2xl:mx-20 hover:scale-110 duration-300"
             />
           </div>
-          <div className="col-span-2 lg:col-span-1 text-lg xl:text-xl text-gray-700 mt-8 ml-0 xl:ml-1 xl:text-left">
-            <p>                    
-              Como agente inmobiliario, ofrezco servicios integrales en la compra, venta y arriendo de propiedades. 
-              Además, me especializo en la tasación y regularización de inmuebles, asegurando que cada transacción 
-              se realice con precisión y transparencia. También brindo asesoría profesional en la redacción de 
-              escrituras públicas y privadas, garantizando que todos los documentos legales cumplan con las normativas 
-              vigentes.
+          <div className="col-span-2 lg:col-span-1 text-base 2xl:text-lg text-gray-700 mt-8 ml-0 xl:ml-1 xl:text-left">
+            <p className='mb-3'>                    
+            Como agente inmobiliario ofrezco un servicio integral en la compra, venta, arriendo y administración de 
+            propiedades. Mi compromiso es brindarles una grata experiencia, respaldada por mi conocimiento del mercado 
+            inmobiliario y una dedicación exclusiva a sus necesidades.
             </p>
-            <br/>
-            <p className="text-lg xl:text-xl text-gray-700 mt-8 ml-0 xl:ml-1 md:text-center xl:text-left">
-              Carolina Ruiz Lobos.
+            <p className='font-bold mb-3'>                    
+            Servicios ofrecidos:
+              <ul className='font-light text-base list-disc gap-2 md:ml-6'>
+                <li>
+                 <p className='font-semibold'>Compra y Venta de Propiedades:</p> Asistencia personalizada en cada etapa del proceso, desde la búsqueda hasta la firma del contrato.
+                </li>
+                <li>
+                  <p className='font-semibold'>Arriendos:</p> Selección meticulosa de inquilinos y gestión eficiente de propiedades para garantizar su tranquilidad.
+                </li>
+                <li>
+                  <p className='font-semibold'>Administración de Propiedades:</p> Supervisión proactiva y mantenimiento de su inversión inmobiliaria.
+                </li>
+              </ul>
             </p>
-            <p className="text-lg xl:text-xl text-gray-700 ml-0 xl:ml-1 md:text-center xl:text-left">
-              Director/as de CRL Propiedades.
+            <p className='mb-3'>
+              Nuestro equipo ofrece asesoría legal especializada en bienes raíces, incluyendo la redacción de 
+              escrituras públicas y privadas, así como la gestión de posesiones efectivas. Garantizamos la elaboración 
+              de documentos legales con la máxima atención y conformidad con las normativas vigentes. Además, brindamos 
+              servicios de tasación y regularización de inmuebles, asegurando precisión y transparencia en cada transacción. 
+              Mi objetivo es que cada paso en el mercado inmobiliario esté respaldado por información confiable y una
+               valoración justa. Me comprometo a ofrecer servicios de alta calidad y profesionalidad, guiando y apoyando 
+               para transformar sus objetivos inmobiliarios en realidades tangibles.
             </p>
+            
+            <div className='text-base xl:text-lg'>
+              <p className=" text-gray-700 mt-8 ml-0 xl:ml-1 md:text-center xl:text-left">
+                Carolina Ruiz Lobos.
+              </p>
+              <p className=" text-gray-700 mt-8 ml-0 xl:ml-1 md:text-center xl:text-left">
+                Habilitada en Derecho
+              </p>
+              <p className="text-gray-700 ml-0 xl:ml-1 md:text-center xl:text-left">
+                Director/a de CRLpropiedades
+              </p>
+            </div>
+
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@ export const navigationData = [
   {
     id: 5,
     name: 'Mi cuenta',
-    toScroll: 'https://unne.prop360.cl/',
+    toScroll: 'https://www.unnecorredores.cl/intranet.asp',
     offset: -120,
     duration: 500
   },
